@@ -180,11 +180,6 @@
     <InfoPlist Include="MakeUpTool.iOS\Info.plist" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MakeUpTool.iOS.StaticLibrary\MakeUpTool.iOS.StaticLibrary.vcxproj">
-      <Project>{925355da-98d7-4680-acf0-a7e12bd89bf2}</Project>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <FrameworkReference Include="System\Library\Frameworks\GLKit.framework">
       <SourceTree>SDKROOT</SourceTree>
     </FrameworkReference>

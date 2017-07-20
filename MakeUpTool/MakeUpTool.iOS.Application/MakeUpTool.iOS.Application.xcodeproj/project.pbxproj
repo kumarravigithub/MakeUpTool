@@ -1,46 +1,139 @@
-// !$*UTF8*$!
 {
 	archiveVersion = 1;
+	objectVersion = 46;
 	classes = {
 	};
-	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9DC111901B2B501900AAD119 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DC1118F1B2B501900AAD119 /* UIKit.framework */; };
-		9DC111921B2B501F00AAD119 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DC111911B2B501F00AAD119 /* GLKit.framework */; };
-		9DC111941B2B502300AAD119 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DC111931B2B502300AAD119 /* OpenGLES.framework */; };
-		D732ADFC1AD8974300D69854 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = D732ADFB1AD8974300D69854 /* main.mm */; };
-		D732AE0B1AD8974300D69854 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D732AE0A1AD8974300D69854 /* Images.xcassets */; };
-		D732AE2A1AD89BDB00D69854 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = D732AE241AD89BDB00D69854 /* AppDelegate.mm */; };
-		D732AE2B1AD89BDB00D69854 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D732AE251AD89BDB00D69854 /* Base */; };
-		D732AE2C1AD89BDB00D69854 /* GameViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = D732AE271AD89BDB00D69854 /* GameViewController.mm */; };
+		9DC111901B2B501900AAD119 = {
+			isa = PBXBuildFile;
+			fileRef = 9DC1118F1B2B501900AAD119;
+		};
+		9DC111921B2B501F00AAD119 = {
+			isa = PBXBuildFile;
+			fileRef = 9DC111911B2B501F00AAD119;
+		};
+		9DC111941B2B502300AAD119 = {
+			isa = PBXBuildFile;
+			fileRef = 9DC111931B2B502300AAD119;
+		};
+		D732ADFC1AD8974300D69854 = {
+			isa = PBXBuildFile;
+			fileRef = D732ADFB1AD8974300D69854;
+		};
+		D732AE0B1AD8974300D69854 = {
+			isa = PBXBuildFile;
+			fileRef = D732AE0A1AD8974300D69854;
+		};
+		D732AE2A1AD89BDB00D69854 = {
+			isa = PBXBuildFile;
+			fileRef = D732AE241AD89BDB00D69854;
+		};
+		D732AE2B1AD89BDB00D69854 = {
+			isa = PBXBuildFile;
+			fileRef = D732AE251AD89BDB00D69854;
+		};
+		D732AE2C1AD89BDB00D69854 = {
+			isa = PBXBuildFile;
+			fileRef = D732AE271AD89BDB00D69854;
+		};
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9DC1118F1B2B501900AAD119 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		9DC111911B2B501F00AAD119 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
-		9DC111931B2B502300AAD119 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
-		D732ADF61AD8974300D69854 /* MakeUpTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakeUpTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D732ADFB1AD8974300D69854 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
-		D732AE0A1AD8974300D69854 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		D732AE231AD89BDB00D69854 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D732AE241AD89BDB00D69854 /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
-		D732AE251AD89BDB00D69854 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D732AE261AD89BDB00D69854 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
-		D732AE271AD89BDB00D69854 /* GameViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GameViewController.mm; sourceTree = "<group>"; };
-		D732AE291AD89BDB00D69854 /* ../vcreference.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = ../vcreference.xcconfig; sourceTree = "<group>"; };
+		9DC1118F1B2B501900AAD119 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = UIKit.framework;
+			path = System/Library/Frameworks/UIKit.framework;
+			sourceTree = SDKROOT;
+		};
+		9DC111911B2B501F00AAD119 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = GLKit.framework;
+			path = System/Library/Frameworks/GLKit.framework;
+			sourceTree = SDKROOT;
+		};
+		9DC111931B2B502300AAD119 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = OpenGLES.framework;
+			path = System/Library/Frameworks/OpenGLES.framework;
+			sourceTree = SDKROOT;
+		};
+		D732ADF61AD8974300D69854 = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.application;
+			path = MakeUpTool.app;
+			sourceTree = BUILT_PRODUCTS_DIR;
+			includeInIndex = 0;
+		};
+		D732ADFB1AD8974300D69854 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			path = main.mm;
+			sourceTree = "<group>";
+		};
+		D732AE0A1AD8974300D69854 = {
+			isa = PBXFileReference;
+			lastKnownFileType = folder.assetcatalog;
+			path = Images.xcassets;
+			sourceTree = "<group>";
+		};
+		D732AE231AD89BDB00D69854 = {
+			isa = PBXFileReference;
+			fileEncoding = 4;
+			lastKnownFileType = sourcecode.c.h;
+			path = AppDelegate.h;
+			sourceTree = "<group>";
+		};
+		D732AE241AD89BDB00D69854 = {
+			isa = PBXFileReference;
+			fileEncoding = 4;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			path = AppDelegate.mm;
+			sourceTree = "<group>";
+		};
+		D732AE251AD89BDB00D69854 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file.storyboard;
+			name = Base;
+			path = Base.lproj/Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D732AE261AD89BDB00D69854 = {
+			isa = PBXFileReference;
+			fileEncoding = 4;
+			lastKnownFileType = sourcecode.c.h;
+			path = GameViewController.h;
+			sourceTree = "<group>";
+		};
+		D732AE271AD89BDB00D69854 = {
+			isa = PBXFileReference;
+			fileEncoding = 4;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			path = GameViewController.mm;
+			sourceTree = "<group>";
+		};
+		D732AE291AD89BDB00D69854 = {
+			isa = PBXFileReference;
+			fileEncoding = 4;
+			lastKnownFileType = text.xcconfig;
+			path = ../vcreference.xcconfig;
+			sourceTree = "<group>";
+		};
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D732ADF31AD8974300D69854 /* Frameworks */ = {
+		D732ADF31AD8974300D69854 = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
-				9DC111941B2B502300AAD119 /* OpenGLES.framework in Frameworks */,
-				9DC111921B2B501F00AAD119 /* GLKit.framework in Frameworks */,
-				9DC111901B2B501900AAD119 /* UIKit.framework in Frameworks */,
+				9DC111941B2B502300AAD119,
+				9DC111921B2B501F00AAD119,
+				9DC111901B2B501900AAD119,
 			);
+			buildActionMask = 2147483647;
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
@@ -48,86 +141,72 @@
 /* Begin PBXGroup section */
 		D732ADED1AD8974300D69854 = {
 			isa = PBXGroup;
-			children = (
-				9DC111931B2B502300AAD119 /* OpenGLES.framework */,
-				9DC111911B2B501F00AAD119 /* GLKit.framework */,
-				9DC1118F1B2B501900AAD119 /* UIKit.framework */,
-				D732ADF81AD8974300D69854 /* MakeUpTool.iOS */,
-				D732ADF71AD8974300D69854 /* Products */,
-			);
 			sourceTree = "<group>";
-		};
-		D732ADF71AD8974300D69854 /* Products */ = {
-			isa = PBXGroup;
 			children = (
-				D732ADF61AD8974300D69854 /* MakeUpTool.app */,
+				9DC111931B2B502300AAD119,
+				9DC111911B2B501F00AAD119,
+				9DC1118F1B2B501900AAD119,
+				D732ADF81AD8974300D69854,
+				D732ADF71AD8974300D69854,
 			);
+		};
+		D732ADF71AD8974300D69854 = {
+			isa = PBXGroup;
 			name = Products;
 			sourceTree = "<group>";
-		};
-		D732ADF81AD8974300D69854 /* MakeUpTool.iOS */ = {
-			isa = PBXGroup;
 			children = (
-				D732AE231AD89BDB00D69854 /* AppDelegate.h */,
-				D732AE241AD89BDB00D69854 /* AppDelegate.mm */,
-				D732AE251AD89BDB00D69854 /* Base */,
-				D732AE261AD89BDB00D69854 /* GameViewController.h */,
-				D732AE271AD89BDB00D69854 /* GameViewController.mm */,
-				D732AE291AD89BDB00D69854 /* ../vcreference.xcconfig */,
-				D732AE0A1AD8974300D69854 /* Images.xcassets */,
-				D732ADF91AD8974300D69854 /* Supporting Files */,
+				D732ADF61AD8974300D69854,
 			);
+		};
+		D732ADF81AD8974300D69854 = {
+			isa = PBXGroup;
 			path = MakeUpTool.iOS;
 			sourceTree = "<group>";
-		};
-		D732ADF91AD8974300D69854 /* Supporting Files */ = {
-			isa = PBXGroup;
 			children = (
-				D732ADFB1AD8974300D69854 /* main.mm */,
+				D732AE231AD89BDB00D69854,
+				D732AE241AD89BDB00D69854,
+				D732AE251AD89BDB00D69854,
+				D732AE261AD89BDB00D69854,
+				D732AE271AD89BDB00D69854,
+				D732AE291AD89BDB00D69854,
+				D732AE0A1AD8974300D69854,
+				D732ADF91AD8974300D69854,
 			);
+		};
+		D732ADF91AD8974300D69854 = {
+			isa = PBXGroup;
 			name = "Supporting Files";
 			sourceTree = "<group>";
+			children = (
+				D732ADFB1AD8974300D69854,
+			);
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D732ADF51AD8974300D69854 /* MakeUpTool */ = {
+		D732ADF51AD8974300D69854 = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D732AE1D1AD8974300D69854 /* Build configuration list for PBXNativeTarget "MakeUpTool" */;
 			buildPhases = (
-				D732ADF21AD8974300D69854 /* Sources */,
-				D732ADF31AD8974300D69854 /* Frameworks */,
-				D732ADF41AD8974300D69854 /* Resources */,
-			);
-			buildRules = (
+				D732ADF21AD8974300D69854,
+				D732ADF31AD8974300D69854,
+				D732ADF41AD8974300D69854,
 			);
 			dependencies = (
 			);
 			name = MakeUpTool;
 			productName = MakeUpTool;
-			productReference = D732ADF61AD8974300D69854 /* MakeUpTool.app */;
+			productReference = D732ADF61AD8974300D69854;
 			productType = "com.apple.product-type.application";
+			buildConfigurationList = D732AE1D1AD8974300D69854;
+			buildRules = (
+			);
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D732ADEE1AD8974300D69854 /* Project object */ = {
+		D732ADEE1AD8974300D69854 = {
 			isa = PBXProject;
-			attributes = {
-				LastUpgradeCheck = 0610;
-				TargetAttributes = {
-					D732ADF51AD8974300D69854 = {
-						CreatedOnToolsVersion = 6.1;
-					};
-				};
-                VC_Properties = {
-                    VC_ProjectGuid = f6067836-ca68-460c-bbad-405152fd374f;
-                    VC_ProjectReferences = {
-                        925355da-98d7-4680-acf0-a7e12bd89bf2="..\\MakeUpTool.iOS.StaticLibrary\\MakeUpTool.iOS.StaticLibrary.vcxproj";
-                    };
-                };
-			};
-			buildConfigurationList = D732ADF11AD8974300D69854 /* Build configuration list for PBXProject "MakeUpTool.iOS.Application" */;
+			buildConfigurationList = D732ADF11AD8974300D69854;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -136,44 +215,56 @@
 				Base,
 			);
 			mainGroup = D732ADED1AD8974300D69854;
-			productRefGroup = D732ADF71AD8974300D69854 /* Products */;
+			productRefGroup = D732ADF71AD8974300D69854;
 			projectDirPath = "";
+			attributes = {
+				LastUpgradeCheck = 0610;
+				TargetAttributes = {
+					D732ADF51AD8974300D69854 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+				VC_Properties = {
+					VC_ProjectGuid = f6067836-ca68-460c-bbad-405152fd374f;
+					VC_ProjectReferences = {
+					};
+				};
+			};
 			projectRoot = "";
 			targets = (
-				D732ADF51AD8974300D69854 /* MakeUpTool */,
+				D732ADF51AD8974300D69854,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D732ADF41AD8974300D69854 /* Resources */ = {
+		D732ADF41AD8974300D69854 = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
-				D732AE2B1AD89BDB00D69854 /* Base in Resources */,
-				D732AE0B1AD8974300D69854 /* Images.xcassets in Resources */,
+				D732AE2B1AD89BDB00D69854,
+				D732AE0B1AD8974300D69854,
 			);
+			buildActionMask = 2147483647;
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D732ADF21AD8974300D69854 /* Sources */ = {
+		D732ADF21AD8974300D69854 = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
-				D732AE2A1AD89BDB00D69854 /* AppDelegate.mm in Sources */,
-				D732AE2C1AD89BDB00D69854 /* GameViewController.mm in Sources */,
-				D732ADFC1AD8974300D69854 /* main.mm in Sources */,
+				D732AE2A1AD89BDB00D69854,
+				D732AE2C1AD89BDB00D69854,
+				D732ADFC1AD8974300D69854,
 			);
+			buildActionMask = 2147483647;
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		D732AE1B1AD8974300D69854 /* Debug */ = {
+		D732AE1B1AD8974300D69854 = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D732AE291AD89BDB00D69854 /* ../vcreference.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -213,10 +304,10 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
+			baseConfigurationReference = D732AE291AD89BDB00D69854;
 		};
-		D732AE1C1AD8974300D69854 /* Release */ = {
+		D732AE1C1AD8974300D69854 = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D732AE291AD89BDB00D69854 /* ../vcreference.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -250,8 +341,9 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+			baseConfigurationReference = D732AE291AD89BDB00D69854;
 		};
-		D732AE1E1AD8974300D69854 /* Debug */ = {
+		D732AE1E1AD8974300D69854 = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -261,7 +353,7 @@
 			};
 			name = Debug;
 		};
-		D732AE1F1AD8974300D69854 /* Release */ = {
+		D732AE1F1AD8974300D69854 = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -274,25 +366,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D732ADF11AD8974300D69854 /* Build configuration list for PBXProject "MakeUpTool.iOS.Application" */ = {
+		D732ADF11AD8974300D69854 = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D732AE1B1AD8974300D69854 /* Debug */,
-				D732AE1C1AD8974300D69854 /* Release */,
+				D732AE1B1AD8974300D69854,
+				D732AE1C1AD8974300D69854,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		D732AE1D1AD8974300D69854 /* Build configuration list for PBXNativeTarget "MakeUpTool" */ = {
+		D732AE1D1AD8974300D69854 = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D732AE1E1AD8974300D69854 /* Debug */,
-				D732AE1F1AD8974300D69854 /* Release */,
+				D732AE1E1AD8974300D69854,
+				D732AE1F1AD8974300D69854,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D732ADEE1AD8974300D69854 /* Project object */;
+	rootObject = D732ADEE1AD8974300D69854;
 }
