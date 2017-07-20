@@ -8,5 +8,6 @@
     <ClInclude Include="$(MSBuildThisFileDirectory)pch.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)SimpleRenderer.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)groomefy.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)CImg.h" />
   </ItemGroup>
 </Project>

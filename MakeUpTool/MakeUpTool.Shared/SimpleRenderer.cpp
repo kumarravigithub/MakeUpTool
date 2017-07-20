@@ -5,7 +5,7 @@
 
 #include "SimpleRenderer.h"
 #include "MathHelper.h"
-
+#include "Clmg.h"
 
 // These are used by the shader compilation methods.
 #include <vector>
