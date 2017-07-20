@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="MakeUpTool.iOS">
+      <UniqueIdentifier>{7997bd4e-53a3-4b79-9c0c-d5c7093ee43f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MakeUpTool.iOS\Images.xcassets">
+      <UniqueIdentifier>{26b310fc-38ed-4f44-bd35-3ddd9e60e4ac}</UniqueIdentifier>
+      <Extensions>MakeUpTool.iOS\Images.xcassets\*</Extensions>
+    </Filter>
+    <Filter Include="MakeUpTool.iOS\Images.xcassets\AppIcon.appiconset">
+      <UniqueIdentifier>{cdc8a136-4212-4d4f-9a30-d4b8d340435d}</UniqueIdentifier>
+      <Extensions>MakeUpTool.iOS\Images.xcassets\AppIcon.appiconset\*</Extensions>
+    </Filter>
+    <Filter Include="MakeUpTool.iOS\Supporting Files">
+      <UniqueIdentifier>{021d7277-3eb8-4d27-94bd-d8cf8f9a8f22}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MakeUpTool.iOS\AppDelegate.mm">
+      <Filter>MakeUpTool.iOS</Filter>
+    </ClCompile>
+    <ClCompile Include="MakeUpTool.iOS\GameViewController.mm">
+      <Filter>MakeUpTool.iOS</Filter>
+    </ClCompile>
+    <ClCompile Include="MakeUpTool.iOS\main.mm">
+      <Filter>MakeUpTool.iOS\Supporting Files</Filter>
+    </ClCompile>
+    <ClInclude Include="MakeUpTool.iOS\AppDelegate.h">
+      <Filter>MakeUpTool.iOS</Filter>
+    </ClInclude>
+    <ClInclude Include="MakeUpTool.iOS\GameViewController.h">
+      <Filter>MakeUpTool.iOS</Filter>
+    </ClInclude>
+    <Content Include="MakeUpTool.iOS\Base.lproj\Main.storyboard">
+      <Filter>MakeUpTool.iOS</Filter>
+    </Content>
+    <Content Include="MakeUpTool.iOS\Images.xcassets\AppIcon.appiconset\Contents.json">
+      <Filter>MakeUpTool.iOS\Images.xcassets\AppIcon.appiconset</Filter>
+    </Content>
+    <InfoPlist Include="MakeUpTool.iOS\Info.plist">
+      <Filter>MakeUpTool.iOS\Supporting Files</Filter>
+    </InfoPlist>
+  </ItemGroup>
+</Project>
